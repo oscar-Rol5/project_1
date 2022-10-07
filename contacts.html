@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/12a4d14c1f.js" crossorigin="anonymous"></script>
+    <title>Photo Gallery</title>
+</head>
+<body>
+    <div id="pContainer">  
+        <div class = wrapper>
+            <div class="one1">
+                <img id="logo" src="images/logo2.png">
+                <nav id="menu">
+                
+                    <ul style="padding-bottom: 25px; padding-left: 15px;">
+
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="photoGallery.html">Photo Gallery</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="about.html">About Us</a>
+
+                            <ul>
+                                <li><a href="contacts.html">Contact</a></li>
+                                <li><a href="location.html">Location</a></li>
+                            </ul>
+                            
+                        </li>
+
+                    </ul>
+                    
+                </nav>
+
+            </div>
+
+            <div class="one2">
+                
+                <nav id="menu">
+                
+                    <ul style="padding-top: 44px;">        
+                        <li><i class="fa-solid fa-cart-shopping"></i></i><a href="#">Cart</a></li>
+                        <li><i class="fa-solid fa-user"></i><a href="#">My Account</a></li>
+                    </ul>
+
+                </nav>
+                
+            </div>
+
+        </div>
+
+        <div class="wrapperContacts">
+
+            <form action="http://vip.groupehn.com:20003/html/infospost.php" method="POST" class="contactForm">
+
+                <h4>Contact Form</h4>
+
+                <input required class="controls" id="lastname" type="text" name="lastname" placeholder="Introduce your lastname"/>
+
+                <input required class="controls"  id="firstname" type="text" name="firstname" placeholder="Introduce your name"/>
+
+                <input required class="controls" id="mail" type="email" name="email" placeholder="Introduce your email"/>
+
+                <textarea required class="controls" id="request" name="request" cols="66" rows="10" placeholder="Introduce your request"></textarea>
+
+                <select required class="country" id="country" name="country">
+
+                    <option disabled selected>Select your country</option>
+
+                    <option>France</option>
+
+                    <option>Spain</option>
+
+                    <option>Portugal</option>
+
+                    <option>Romania</option>
+
+                    <option>Luxembourg</option>
+
+
+                </select>
+
+                <button id="contactButton">Send!</button>
+
+            </form>
+                
+        </div>
+        
+        <div id="footer">
+
+            <div class="oneF1">
+
+                <hr style="width: 90%;"> 
+
+            </div>
+
+            <div class="oneF2">
+
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-regular fa-at"></i>
+                <i class="fa-brands fa-linkedin"></i>
+
+            </div>
+
+            <div class="oneF3">
+
+                <hr style="width: 90%;">
+            
+            </div>
+
+            <div class="twoF">
+
+                <img id="logo" src="images/logo2.png">
+
+            </div>
+
+            <div class="threeF">
+
+                <p>Copyright© 2022</p>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
